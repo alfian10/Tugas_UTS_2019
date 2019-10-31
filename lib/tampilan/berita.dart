@@ -7,13 +7,14 @@ class Email extends StatelessWidget {
       child: new Center(
         child: Column(
           children: <Widget>[
-            new Padding(padding: new EdgeInsets.all(20.0),),
-            new Padding(padding: new EdgeInsets.all(20.0),),
-            new Icon(Icons.book,size: 90.0, color: Colors.white,),
             new Text("BERITA", style: new TextStyle(fontSize: 30.0, color: Colors.white),)
           ],
+          
         ),
+
       ),
+
     );
+
   }
 }

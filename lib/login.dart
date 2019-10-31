@@ -16,6 +16,8 @@ class _LoginPageState extends State<LoginPage> {
         backgroundColor: Colors.transparent,
         radius: 48.0,
         child: Image.asset('assets/images/arsenal.png'),
+
+
       ),
     );
 
@@ -32,7 +34,7 @@ class _LoginPageState extends State<LoginPage> {
 
     final password = TextFormField(
       autofocus: false,
-      initialValue: 'some password',
+      initialValue: 'password',
       obscureText: true,
       decoration: InputDecoration(
         hintText: 'Password',
