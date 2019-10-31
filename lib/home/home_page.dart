@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
           padding: EdgeInsets.zero,
           children: <Widget>[
             DrawerHeader(
-              child: Text('Arsenal Fans Indonesia'),
+              child: Text('Arsenal Fans Indonesia Official'),
               decoration: BoxDecoration(
                 color: Colors.red,
               ),
